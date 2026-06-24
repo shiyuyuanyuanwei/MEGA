@@ -19,5 +19,5 @@ class Config():
     graph_dir = os.path.join(data_dir, 'graph_{}_{}_{}'.format(every_k_points, split_graph_num, max_num))
     graph_train_dir = os.path.join(graph_dir, 'train')
     graph_test_dir = os.path.join(graph_dir, 'test')
-    batch_size = 4
+    batch_size = 6
     num_workers = 12
