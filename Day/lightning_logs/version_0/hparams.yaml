@@ -1,0 +1,5 @@
+Config: !!python/name:day_config.Config ''
+f_graph_dim: 24
+heads: 1
+learning_rate: 0.001
+num_attention: 1
